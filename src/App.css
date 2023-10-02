@@ -1,8 +1,72 @@
 .App {
   text-align: center;
+  color:white;
+  max-width: 500px;
+  margin:0 auto;
 }
 .Header {
-  color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  text-align: center;
+  color:gold;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 900;
+  letter-spacing: -0.3rem;
 }
 /* write your parent styles in here for your App.js */
+
+.title{
+  color: gold;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.names{
+ background-color: #443e3e;
+ height: 60px;
+ border: 1px solid aliceblue;
+ overflow: hidden;
+ margin: 20px;
+ transition: height 0.3s ease-in-out;
+ -webkit-transition: max-height 0.5s;
+ -moz-transition:max-height 0.5s;
+ -o-transition: max-height 0.5s;
+}
+
+.names .open{
+  height: 200px;
+  background-color: white;
+  overflow: scroll;
+}
+
+.names .open .acc-title{
+  border-bottom: 1px solid white;
+}
+.acc-title{
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+  cursor:pointer;
+  color: gold;
+}
+
+
+.arrow{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+}
+
+
+.names .arrow{
+  rotate: 270deg;
+}
+
+.names .open .arrow {
+  rotate: 90deg;
+}

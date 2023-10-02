@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-image: url('./images/sw-bg.jpg');
+  background-image: url("https://img.freepik.com/premium-vector/space-speed-abstract-starburst-dynamic-lines-rays_255502-317.jpg?w=996");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
 }
